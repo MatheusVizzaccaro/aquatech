@@ -1,1 +1,98 @@
-/* Adicionar aqui toda a estilização criada para sua aplicação. */
+body {
+    margin: 0;
+}
+
+.header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100px;
+    
+    border-bottom: 5px solid #3bb6ca;
+    
+}
+.header{
+    background-color: #020205;
+    color: #3bb6ca;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    color: orange;
+    justify-content: space-around;
+}
+
+a,li{
+    display: flex;
+    color: orange;
+    justify-content: space-around;
+    padding: 15px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.titulo {
+    padding-left: 100px;
+}
+
+.banner{
+    display: flex;
+    font-size: 30px;
+    background-image: url("../assets/imgs/bg-jelly-fish-para-home.png");
+    align-items: center;
+    justify-content: center;
+}
+
+.banner .container{
+    display: flex;
+    font-size: 40px;
+    max-width: 1200px;
+    height: 60vh;
+    color: white;
+    align-items: center;
+    width: 220px;
+    margin-right: 150px;
+}
+
+.social {
+    background-color: lightgray
+}
+
+.boxes{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 40px 0;
+  align-items: center;
+  text-align: center;
+}
+
+.box img {
+    width: 100px;
+    height: auto;
+    display: inline-flex; 
+    /* usei inline flex por que por algum motivo o flex quebrava a página */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box h4 {
+    font-size: 24px;
+    color: #d41565;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3bb6ca;
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+}
